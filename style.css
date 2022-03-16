@@ -40,9 +40,41 @@ h1 {
 
 #task-form button{
   border: none;
-  background-color: blueviolet;
+  background-color: turquoise;
   font-family: "title";
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#task-list-area {
+  padding-left: 10px;
+}
+
+#task-list {
+  font-family: "regular";
+}
+
+@media screen and (max-width: 768px) {
+
+  #container {
+    width: 90%;
+    margin: 10px auto;
+
+  }
+    h1 {
+      font-size: 130%;
+    }
+
+    #task-description {
+      display: block;
+      width: 90%;
+      margin: 10px auto;
+
+    }
+
+    #task-list {
+      padding-left: 0;
+  
+    }
 }
